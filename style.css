@@ -1,7 +1,7 @@
 /* styles.css */
 
 body{
-    background-color: rgb(205, 203, 203);
+    background-color: rgb(217, 214, 214);
 }
 
 .my-name{
@@ -25,11 +25,15 @@ body{
 }
 
 img{
-    margin: 10px 100px 10px 300px;
+    padding: 10px;
+    border-color: black;
+    box-sizing: border-box;
+}
+
+.img_container{
     padding: 10px;
     border-color: black;
     box-sizing:border-box;
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;   
 }
